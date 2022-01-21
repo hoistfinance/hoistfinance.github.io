@@ -1,3 +1,14 @@
+body{
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 280px;
+  padding: 30px;
+}
+
+h2{
+  color: #c71182 !important;
+}
+
 .container {
   margin: auto;
   text-align: center;
@@ -23,17 +34,14 @@ input {
   opacity: 1;
 }
 
-h2 {
-  color: #aaaaaa;
-}
 
 #next_button_t1,
 #reset_all_config_btn,
 #feedback_btn {
-  width: 120px;
+  width: 132px;
   height: 45px;
   /*background: #FFFFFF 0% 0% no-repeat padding-box;*/
-  background: #0078D4 0% 0% no-repeat padding-box;
+  background: #c71182 0% 0% no-repeat padding-box;
   color: white;
   /*border: 1px solid #8A8886;*/
   border: none;
@@ -42,8 +50,8 @@ h2 {
 }
 
 #reset_all_config_btn {
-  background-color: red;
-  color: white;
+  background-color: rgb(207, 207, 207);
+  color: #000;
 }
 
 .feedback-container {
