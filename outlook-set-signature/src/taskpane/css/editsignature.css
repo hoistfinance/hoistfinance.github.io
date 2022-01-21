@@ -3,6 +3,12 @@ body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   max-width: 250px;
   padding: 5px;
+  background-image: url('../../../assets/blocks.svg');
+  background-size: 300px;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h2{

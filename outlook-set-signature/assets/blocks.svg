@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="535px" height="595px" viewBox="0 0 535 595" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Pattern</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Hoist-Finance-–-Start-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Start-–-Desktop---1440-px" transform="translate(-905.000000, -190.000000)">
+            <g id="Media-space" transform="translate(0.000000, 150.000000)">
+                <g id="Pattern" transform="translate(905.000000, 40.000000)">
+                    <g id="3" transform="translate(214.000000, 58.850000)" fill="#FFFFFF">
+                        <polygon id="Path-4-Copy" transform="translate(267.500000, 89.345000) scale(-1, 1) translate(-267.500000, -89.345000) " points="214 0 214 119.725194 321 178.69 321 58.85"></polygon>
+                        <polygon id="Path-4-Copy-5" transform="translate(160.500000, 268.035000) scale(-1, 1) translate(-160.500000, -268.035000) " points="107 178.69 107 298.415194 214 357.38 214 237.54"></polygon>
+                        <polygon id="Path-4-Copy-9" transform="translate(53.500000, 446.725000) scale(-1, 1) translate(-53.500000, -446.725000) " points="0 357.38 0 477.105194 107 536.07 107 416.23"></polygon>
+                        <polygon id="Path-4-Copy-11" transform="translate(267.500000, 446.725000) scale(-1, 1) translate(-267.500000, -446.725000) " points="214 357.38 214 477.105194 321 536.07 321 416.23"></polygon>
+                    </g>
+                    <g id="2" transform="translate(107.000000, 58.850000)" fill="#C91281">
+                        <polygon id="Path-4" points="214 0 214 119.725194 321 178.69 321 58.85"></polygon>
+                        <polygon id="Path-4-Copy-4" points="107 178.69 107 298.415194 214 357.38 214 237.54"></polygon>
+                        <polygon id="Path-4-Copy-8" points="0 357.38 0 477.105194 107 536.07 107 416.23"></polygon>
+                        <polygon id="Path-4-Copy-10" points="214 357.38 214 477.105194 321 536.07 321 416.23"></polygon>
+                        <polygon id="Path-4-Copy-12" points="321 178.69 321 298.415194 428 357.38 428 237.54"></polygon>
+                    </g>
+                    <g id="1" fill="#EABEDC">
+                        <polygon id="Path-Copy-8" points="321 58.743964 428 0 535 58.743964 428 117.7"></polygon>
+                        <polygon id="Path-Copy-13" points="0 594.813964 107 536.07 214 594.813964"></polygon>
+                        <polygon id="Path-Copy-14" points="214 594.813964 321 536.07 428 594.813964"></polygon>
+                        <polygon id="Path-Copy-15" points="428 594.813964 535 536.07 535 594.813964"></polygon>
+                        <polygon id="Path-Copy-9" points="214 237.433964 321 178.69 428 237.433964 321 296.39"></polygon>
+                        <polygon id="Path-Copy-10" points="107 416.123964 214 357.38 321 416.123964 214 475.08"></polygon>
+                        <polygon id="Path-Copy-11" points="321 416.123964 428 357.38 535 416.123964 428 475.08"></polygon>
+                        <polygon id="Path-Copy-12" points="428 237.433964 535 178.69 535 296.39"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
