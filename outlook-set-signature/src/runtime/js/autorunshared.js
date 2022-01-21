@@ -175,19 +175,19 @@ function get_template_A_info(user_info) {
 
   str += "<table>";
   str += "<tr>";
-  // Embed the logo using <img src='cid:...
-  str +=
-    "<td style='border-right: 1px solid #000000; padding-right: 5px;'><img src='cid:" +
-    logoFileName +
-    "' alt='MS Logo' width='24' height='24' /></td>";
-  str += "<td style='padding-left: 5px;'>";
-  str += "<strong>" + user_info.name + "</strong>";
-  str += is_valid_data(user_info.pronoun) ? "&nbsp;" + user_info.pronoun : "";
-  str += "<br/>";
-  str += is_valid_data(user_info.job) ? user_info.job + "<br/>" : "";
-  str += user_info.email + "<br/>";
-  str += is_valid_data(user_info.phone) ? user_info.phone + "<br/>" : "";
-  str += "</td>";
+  str += `  <td>${user_info.name}</td>`;
+  str += "</tr>";
+  str += "<tr>";
+  str += `  <td>${user_info.job} | ${user_info.department}</td>`;
+  str += "</tr>";
+  str += "<tr>";
+  str += `  <td>${user_info.email}</td>`;
+  str += "</tr>";
+  str += "<tr>";
+  str += `  <td><img src="cid:${logoFileName}" alt="Hoist Finance"/></td>`;
+  str += "</tr>";
+  str += "<tr>";
+  str += `  <td><a href="https://wwww.hoistfinance.com">www.hoistfinance.com</a></td>`;
   str += "</tr>";
   str += "</table>";
 
