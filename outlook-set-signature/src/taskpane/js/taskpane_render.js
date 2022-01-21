@@ -22,7 +22,7 @@ function on_initialization_complete()
 		{
       _output = $("textarea#output");
       _display_name = $("input#display_name");
-      _email_id = $("input#email_id").toLowerCase();
+      _email_id = $("input#email_id");
       _job_title = $("input#job_title");
       _department = $("input#department");
       _phone_number = $("input#phone_number");
