@@ -33,7 +33,7 @@
 
     <div class="dropdown">
       <label for="templates">New Mail
-        <select style="margin-left:62px;" id="new_mail">
+        <select style="margin-left:32px;" id="new_mail">
           <option value="none">None</option>
           <option value="templateA">Full</option>
           <option value="templateB">Compact</option>
@@ -42,11 +42,11 @@
       </label>
     </div>
 
-    <div style="height:20px;"><br></div>
+    <br>
 
     <div class="dropdown">
       <label for="templates">Reply
-          <select style="margin-left:85px;" id="reply">
+          <select style="margin-left:55px;" id="reply">
             <option value="none">None</option>
             <option value="templateA">Full</option>
             <option value="templateB">Compact</option>
@@ -54,12 +54,12 @@
           </select>
         </label>
     </div>
-
-    <div style="height:20px;"><br></div>
+    
+    <br>
 
     <div class="dropdown">
       <label for="templates">Forward
-        <select style="margin-left:71px;" id="forward">
+        <select style="margin-left:39px;" id="forward">
           <option value="none">None</option>
           <option value="templateA">Full</option>
           <option value="templateB">Compact</option>
@@ -68,24 +68,22 @@
       </label>
     </div>
 
-    <div style="height:15px;"><br></div>
-
-    <p id="newMApt"><strong>Appointments</strong> will use <strong>New Mail</strong> template.</p>
-
-    <div style="height:5px;"><br></div>
+    <br>
 
     <p id="override_sig">Override Outlook signature</p>
 
-    <label style = "position:relative; left:230px; top:2.5px;" class="switch">
+    <label style = "position:relative; left:185px; top:2.5px;" class="switch">
       <input id="checkbox_sig" type="checkbox" checked>
       <span class="slider round"></span>
     </label>
 
-    <div style="height:60px;"><br></div>
+    <br>
 
-    <button id="edit_button" type="submit" class="registerbtn" onclick="navigate_to_taskpane2()">Edit</button>
+    <br>
 
-    <button id="submit_button" type="submit" class="registerbtn" onclick="save_signature_settings()">Save</button>
+    <button id="edit_button" type="submit" class="" onclick="navigate_to_taskpane2()">Edit</button>
+
+    <button id="submit_button" type="submit" class="" onclick="save_signature_settings()">Save</button>
 
     <p id="message">Success! You can close this pane.</p>
 
