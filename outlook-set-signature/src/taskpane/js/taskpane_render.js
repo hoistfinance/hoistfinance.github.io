@@ -41,7 +41,7 @@ function prepopulate_from_userprofile()
   const displayName = Office.context.mailbox.userProfile.displayName.split(',');
 
   if(displayName.length == 2) {
-    _display_name.val(`${displayName[0].trim()} ${displayName[1].trim()}`);
+    _display_name.val(`${displayName[1].trim()} ${displayName[0].trim()}`);
   }
   else {
     _display_name.val(Office.context.mailbox.userProfile.displayName);
