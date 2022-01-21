@@ -12,7 +12,9 @@ body{
 }
 
 h2{
-  color: #c71182 !important;
+  color: #3e3e3e !important;
+  text-align: left;
+  font-family: platform;
 }
 
 .container {
@@ -21,19 +23,23 @@ h2{
 }
 
 #message {
-  color: red;
-  font-size: 20px;
+  color: white;
+  padding: 5px;
+  width: 250px;
+  background-color: crimson;
+  font-size: 13px;
+  border-radius: 2px;
 }
 
 input {
-  height: 45px;
-  width: 267px;
+  height: 41px;
+  width: 250px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
   text-indent: 5px;
-  font-size: 15px;
+  font-size: 13px;
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 1px solid #919191;
   border-radius: 2px;
@@ -46,10 +52,8 @@ input {
 #feedback_btn {
   width: 122px;
   height: 45px;
-  /*background: #FFFFFF 0% 0% no-repeat padding-box;*/
   background: #c71182 0% 0% no-repeat padding-box;
   color: white;
-  /*border: 1px solid #8A8886;*/
   border: none;
   border-radius: 2px;
   opacity: 1;
