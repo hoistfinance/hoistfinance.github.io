@@ -38,8 +38,16 @@ function on_initialization_complete()
 
 function prepopulate_from_userprofile()
 {
-  _display_name.val(Office.context.mailbox.userProfile.displayName);
-  _email_id.val(Office.context.mailbox.userProfile.emailAddress);
+  const displayName = Office.context.mailbox.userProfile.displayName.split(',');
+
+  if(displayName.length == 2) {
+    _display_name.val(`${displayName[0].trim()} ${displayName[1].trim()}`);
+  }
+  else {
+    _display_name.val(Office.context.mailbox.userProfile.displayName);
+  }
+
+  _email_id.val(Office.context.mailbox.userProfile.emailAddress).toLowerCase();
 }
 
 function load_saved_user_info()
