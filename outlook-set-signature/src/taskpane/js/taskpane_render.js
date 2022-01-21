@@ -22,8 +22,9 @@ function on_initialization_complete()
 		{
       _output = $("textarea#output");
       _display_name = $("input#display_name");
-      _email_id = $("input#email_id");
+      _email_id = $("input#email_id").toLowerCase();
       _job_title = $("input#job_title");
+      _department = $("input#department");
       _phone_number = $("input#phone_number");
       _greeting_text = $("input#greeting_text");
       _preferred_pronoun = $("input#preferred_pronoun");
@@ -56,6 +57,7 @@ function load_saved_user_info()
     _display_name.val(user_info.name);
     _email_id.val(user_info.email);
     _job_title.val(user_info.job);
+    _department.val(user_info.department);
     _phone_number.val(user_info.phone);
     _greeting_text.val(user_info.greeting);
 
@@ -126,6 +128,7 @@ function create_user_info()
     user_info.name = name;
     user_info.email = email;
     user_info.job = _job_title.val().trim();
+    user_info.department = department.val().trim();
     user_info.phone = _phone_number.val().trim();
     user_info.greeting = _greeting_text.val().trim();
     user_info.pronoun = _preferred_pronoun.val().trim();
@@ -146,6 +149,7 @@ function clear_all_fields()
   _display_name.val("");
   _email_id.val("");
   _job_title.val("");
+  _department.val("");
   _phone_number.val("");
   _greeting_text.val("");
   _preferred_pronoun.val("");
