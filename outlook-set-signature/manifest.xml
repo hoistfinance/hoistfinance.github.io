@@ -9,8 +9,8 @@
   <DefaultLocale>en-us</DefaultLocale>
   <DisplayName DefaultValue="Email Signature"/>
   <Description DefaultValue="Hoist Finance | Manage email signature"/>
-  <IconUrl DefaultValue="https://raw.githubusercontent.com/hoistfinance/outlook-set-signature/main/assets/hoist-finance.png"/>
-  <HighResolutionIconUrl DefaultValue="https://raw.githubusercontent.com/hoistfinance/outlook-set-signature/main/assets/hoist-finance.png"/>
+  <IconUrl DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/hoist-finance.png"/>
+  <HighResolutionIconUrl DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/hoist-finance.png"/>
   <SupportUrl DefaultValue="https://hoistfinance.service-now.com/sp"/>
 
   <Requirements>
@@ -23,7 +23,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://raw.githubusercontent.com/hoistfinance/outlook-set-signature/main/src/taskpane/html/editsignature.html"/>
+        <SourceLocation DefaultValue="https://hoistfinance.github.io/outlook-set-signature/src/taskpane/html/editsignature.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -116,12 +116,12 @@
       </Hosts>
       <Resources>
         <bt:Images>
-          <bt:Image id="Icon16x16" DefaultValue="https://raw.githubusercontent.com/hoistfinance/outlook-set-signature/main/assets/final_logo.png"></bt:Image>
+          <bt:Image id="Icon16x16" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/final_logo.png"></bt:Image>
         </bt:Images>
         <bt:Urls>
-          <bt:Url id="residUrl0" DefaultValue="https://raw.githubusercontent.com/hoistfinance/outlook-set-signature/main/src/taskpane/html/editsignature.html"></bt:Url>
-          <bt:Url id="Autorun" DefaultValue="https://raw.githubusercontent.com/hoistfinance/outlook-set-signature/main/src/runtime/html/autorunweb.html"></bt:Url>
-          <bt:Url id="runtimeJs" DefaultValue="https://raw.githubusercontent.com/hoistfinance/outlook-set-signature/main/src/runtime/js/autorunshared.js"></bt:Url>
+          <bt:Url id="residUrl0" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/src/taskpane/html/editsignature.html"></bt:Url>
+          <bt:Url id="Autorun" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/src/runtime/html/autorunweb.html"></bt:Url>
+          <bt:Url id="runtimeJs" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/src/runtime/js/autorunshared.js"></bt:Url>
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="residGL0" DefaultValue="Signature Injector"></bt:String>
