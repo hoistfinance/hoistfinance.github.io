@@ -167,7 +167,7 @@ function get_command_id() {
     "logoFileName": The filename of the logo image
  */
 function get_template_A_info(user_info) {
-  const logoFileName = "sample-logo.png";
+  const logoFileName = "hoist-finance.png";
   let str = "";
   if (is_valid_data(user_info.greeting)) {
     str += user_info.greeting + "<br/>";
