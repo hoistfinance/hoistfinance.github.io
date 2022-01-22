@@ -175,7 +175,7 @@ function get_template_A_info(user_info) {
 
   str += "<table>";
   str += "<tr>";
-  str += `  <td>${user_info.name}</td>`;
+  str += `  <td style="font-weight: bold">${user_info.name}</td>`;
   str += "</tr>";
   str += "<tr>";
   str += `  <td>${user_info.job} | ${user_info.department}</td>`;
@@ -184,7 +184,7 @@ function get_template_A_info(user_info) {
   str += `  <td>${user_info.email}</td>`;
   str += "</tr>";
   str += "<tr>";
-  str += `  <td><img src="cid:${logoFileName}" alt="Hoist Finance"/></td>`;
+  str += `  <td><img style="width: 180px;" src="cid:${logoFileName}" alt="Hoist Finance"/></td>`;
   str += "</tr>";
   str += "<tr>";
   str += `  <td><a href="https://wwww.hoistfinance.com">www.hoistfinance.com</a></td>`;
