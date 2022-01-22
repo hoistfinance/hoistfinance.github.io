@@ -174,11 +174,15 @@ function get_template_A_info(user_info) {
   }
 
   str += `<table style="color:#444; border: none; border-spacing: 0px;">`;
-  str += `<tr>`;
-  str += `  <td colspan=2 style="font-weight: bold">${user_info.name}</td>`;
+  str += `<tr>`;  
+  str += `  <td colspan="2" style="font-weight: bold">${user_info.name}`
+  if (is_valid_data(user_info.greeting)) {
+    str += ` <a style="font-size:10px;">(${user_info.pronoun})</a>`;
+  }
+  str += `</td>`;
   str += `</tr>`;
   str += `<tr style="font-size: 14px">`;
-  str += `  <td colspan=2><a style="font-weight: bold">${user_info.job}</a>`; 
+  str += `  <td colspan="2"><a style="font-weight: bold">${user_info.job}</a>`; 
   if (is_valid_data(user_info.department)) {
     str += ` | ${user_info.department}` ;
   }
@@ -196,7 +200,7 @@ function get_template_A_info(user_info) {
   str += `  <td><img style="width: 180px; padding-top: 5px;" src="cid:${logoFileName}" alt="Hoist Finance"/></td>`;
   str += `</tr>`;
   str += `<tr style="font-size: 12px">`;
-  str += `  <td colspan=2><a href="https://wwww.hoistfinance.com" style="color: #c71182;">www.hoistfinance.com</a></td>`;
+  str += `  <td colspan="2"><a href="https://wwww.hoistfinance.com" style="color: #c71182;">www.hoistfinance.com</a></td>`;
   str += `</tr>`;
   str += `</table>`;
 

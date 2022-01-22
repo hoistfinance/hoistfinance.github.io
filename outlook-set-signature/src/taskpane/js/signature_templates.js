@@ -10,7 +10,11 @@ function get_template_A_str(user_info)
 
   str += `<table style="color:#444; border: none; border-spacing: 0px;">`;
   str += `<tr>`;
-  str += `  <td colspan="2" style="font-weight: bold">${user_info.name}</td>`;
+  str += `  <td colspan="2" style="font-weight: bold">${user_info.name}`
+  if (is_valid_data(user_info.greeting)) {
+    str += ` <a style="font-size:10px;">(${user_info.pronoun})</a>`;
+  }
+  str += `</td>`;
   str += `</tr>`;
   str += `<tr style="font-size: 14px">`;
   str += `  <td colspan="2"><a style="font-weight: bold">${user_info.job}</a>`; 
