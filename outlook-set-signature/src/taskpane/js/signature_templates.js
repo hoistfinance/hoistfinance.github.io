@@ -52,7 +52,7 @@ function get_template_B_str(user_info)
 
   str += "<table>";
   str +=   "<tr>";
-  str +=     "<td style='border-right: 1px solid #000000; padding-right: 5px;'><img src='../../../assets/hoist-finance.png' style='width: 36px;' alt='Logo' /></td>";
+  str +=     "<td style='border-right: 1px solid #000000; padding-right: 5px;'><img src='../../../assets/hoist-finance.png' style='width: 60px;' alt='Logo' /></td>";
   str +=     "<td style='padding-left: 5px;'>";
   str +=	   "<strong>" + user_info.name + "</strong>";
   str +=     is_valid_data(user_info.pronoun) ? "&nbsp;" + user_info.pronoun : "";
