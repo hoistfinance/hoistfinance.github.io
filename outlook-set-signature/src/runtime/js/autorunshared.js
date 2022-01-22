@@ -185,11 +185,11 @@ function get_template_A_info(user_info) {
   str += `</td>`;
   str += `</tr>`;
   str += `<tr style="font-size: 14px">`;
-  str += `  <td style="width: 85px">Email</td>`;
+  str += `  <td style="width: 35px">Email</td>`;
   str += `  <td>: ${user_info.email}</td>`;
   str += `</tr>`;
   str += `<tr style="font-size: 14px">`;
-  str += `  <td style="width: 85px">Phone</td>`;
+  str += `  <td style="width: 35px">Phone</td>`;
   str += `  <td>: ${user_info.phone}</td>`;
   str += `</tr>`;
   str += `<tr>`;
