@@ -47,7 +47,7 @@ function prepopulate_from_userprofile()
     _display_name.val(Office.context.mailbox.userProfile.displayName);
   }
 
-  _email_id.val(Office.context.mailbox.userProfile.emailAddress).toLowerCase();
+  _email_id.val(Office.context.mailbox.userProfile.emailAddress);
 }
 
 function load_saved_user_info()
