@@ -1,6 +1,4 @@
-<!-- Copyright (c) Microsoft Corporation.
-     Licensed under the MIT License. -->
-     
+<!-- Copyright (c) Microsoft Corporation. Licensed under the MIT License. -->
 <!DOCTYPE html>
 <html>
 
@@ -75,18 +73,16 @@
 
     <p id="override_sig">Override Outlook signature</p>
 
-    <label style = "position:relative; left:185px; top:2.5px;" class="switch">
+    <label style = "top:-30px; left: 185px" class="switch">
       <input id="checkbox_sig" type="checkbox" checked>
       <span class="slider round"></span>
     </label>
 
     <br>
 
-    <br>
+    <button id="edit_button" type="submit" style="width: 110px;" onclick="navigate_to_taskpane2()">Edit</button>
 
-    <button id="edit_button" type="submit" class="" onclick="navigate_to_taskpane2()">Edit</button>
-
-    <button id="submit_button" type="submit" class="" onclick="save_signature_settings()">Save</button>
+    <button id="submit_button" type="submit" style="left:10px; width: 110px;" onclick="save_signature_settings()">Save</button>
 
     <p id="message">Success! You can close this pane.</p>
 

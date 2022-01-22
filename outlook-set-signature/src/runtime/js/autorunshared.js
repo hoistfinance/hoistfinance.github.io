@@ -173,23 +173,32 @@ function get_template_A_info(user_info) {
     str += user_info.greeting + "<br/>";
   }
 
-  str += "<table>";
-  str += "<tr>";
+  str += `<table>`;
+  str += `<tr>`;
   str += `  <td style="font-weight: bold">${user_info.name}</td>`;
-  str += "</tr>";
-  str += "<tr>";
-  str += `  <td>${user_info.job} | ${user_info.department}</td>`;
-  str += "</tr>";
-  str += "<tr>";
-  str += `  <td>${user_info.email}</td>`;
-  str += "</tr>";
-  str += "<tr>";
+  str += `</tr>`;
+  str += `<tr style="font-size: 14px">`;
+  str += `  <td><a style="font-weight: bold">${user_info.job}</a>`; 
+  if (is_valid_data(user_info.department)) {
+    str += ` | ${user_info.greeting}` ;
+  }
+  str += `</td>`;
+  str += `</tr>`;
+  str += `<tr style="font-size: 14px">`;
+  str += `  <td>Email</td>`;
+  str += `  <td>: ${user_info.email}</td>`;
+  str += `</tr>`;
+  str += `<tr>`;
+  str += `  <td>Phone</td>`;
+  str += `  <td>${user_info.phone}</td>`;
+  str += `</tr>`;
+  str += `<tr>`;
   str += `  <td><img style="width: 180px;" src="cid:${logoFileName}" alt="Hoist Finance"/></td>`;
-  str += "</tr>";
-  str += "<tr>";
+  str += `</tr>`;
+  str += `<tr style="font-size: 12px">`;
   str += `  <td><a href="https://wwww.hoistfinance.com">www.hoistfinance.com</a></td>`;
-  str += "</tr>";
-  str += "</table>";
+  str += `</tr>`;
+  str += `</table>`;
 
   // return object with signature HTML, logo image base64 string, and filename to reference it with.
   return {
