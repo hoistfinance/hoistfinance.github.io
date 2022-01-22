@@ -223,30 +223,32 @@ function get_template_A_info(user_info) {
     "logoFileName": null since this template references the image and does not embed it
  */
 function get_template_B_info(user_info) {
+
+  const logoFileName = "hoist-finance.png";
+
   let str = "";
-  if (is_valid_data(user_info.greeting)) {
+  if (is_valid_data(user_info.greeting))
+  {
     str += user_info.greeting + "<br/>";
   }
 
   str += "<table>";
-  str += "<tr>";
-  // Reference the logo using a URI to the web server <img src='https://...
-  str +=
-    "<td style='border-right: 1px solid #000000; padding-right: 5px;'><img src='https://officedev.github.io/Office-Add-in-samples/Samples/outlook-set-signature/assets/sample-logo.png' alt='Logo' /></td>";
-  str += "<td style='padding-left: 5px;'>";
-  str += "<strong>" + user_info.name + "</strong>";
-  str += is_valid_data(user_info.pronoun) ? "&nbsp;" + user_info.pronoun : "";
-  str += "<br/>";
-  str += user_info.email + "<br/>";
-  str += is_valid_data(user_info.phone) ? user_info.phone + "<br/>" : "";
-  str += "</td>";
-  str += "</tr>";
+  str +=   "<tr>";
+  str +=     "<td style='border-right: 1px solid #000000; padding-right: 5px;'><img src='cid:/hoist-finance.png' style='width: 60px;' alt='Logo' /></td>";
+  str +=     "<td style='padding-left: 5px;'>";
+  str +=	   "<strong>" + user_info.name + "</strong>";
+  str +=     is_valid_data(user_info.pronoun) ? "&nbsp;" + user_info.pronoun : "";
+  str +=     "<br/>";
+  str +=	   user_info.job + "<br/>";
+  str +=	   is_valid_data(user_info.phone) ? user_info.phone + "<br/>" : "";
+  str +=     "</td>";
+  str +=   "</tr>";
   str += "</table>";
 
   return {
     signature: str,
-    logoBase64: null,
-    logoFileName: null,
+    logoBase64: "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",
+    logoFileName: 'hoist-finance.png',
   };
 }
 
@@ -269,12 +271,14 @@ function get_template_C_info(user_info) {
     str += ` ${user_info.pronoun}`
   }
 
+  str += '<br>___________________________________';
+
   if(is_valid_data(user_info.job)) {
     str += `<br>${user_info.job}`
   }
 
   if(is_valid_data(user_info.phone)) {
-    str += ` ${user_info.phone}`
+    str += `<br>${user_info.phone}`
   }
 
   return {
