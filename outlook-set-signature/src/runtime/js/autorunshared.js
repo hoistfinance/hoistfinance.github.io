@@ -265,9 +265,16 @@ function get_template_C_info(user_info) {
   }
 
   str += user_info.name;
+  if(is_valid_data(user_info.pronoun)) {
+    str += ` ${user_info.pronoun}`
+  }
 
   if(is_valid_data(user_info.job)) {
     str += `<br>${user_info.job}`
+  }
+
+  if(is_valid_data(user_info.phone)) {
+    str += ` ${user_info.phone}`
   }
 
   return {

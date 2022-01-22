@@ -69,12 +69,22 @@ function get_template_B_str(user_info)
 function get_template_C_str(user_info)
 {
   let str = "";
-  if (is_valid_data(user_info.greeting))
-  {
-    str += user_info.greeting + "<br/>";
+  if (is_valid_data(user_info.greeting)) {
+    str += `${user_info.greeting}<br/>`;
   }
 
   str += user_info.name;
+  if(is_valid_data(user_info.pronoun)) {
+    str += ` ${user_info.pronoun}`
+  }
+
+  if(is_valid_data(user_info.job)) {
+    str += `<br>${user_info.job}`
+  }
+
+  if(is_valid_data(user_info.phone)) {
+    str += ` ${user_info.phone}`
+  }
   
   return str;
 }
