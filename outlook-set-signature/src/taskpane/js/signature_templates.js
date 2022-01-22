@@ -12,7 +12,7 @@ function get_template_A_str(user_info)
   str += `<tr>`;
   str += `  <td colspan="2" style="font-weight: bold">${user_info.name}`
   if (is_valid_data(user_info.greeting)) {
-    str += ` <a style="font-size:10px;">(${user_info.pronoun})</a>`;
+    str += ` <a style="font-size:10px;">${user_info.pronoun}</a>`;
   }
   str += `</td>`;
   str += `</tr>`;
@@ -32,7 +32,7 @@ function get_template_A_str(user_info)
   str += `  <td>: ${user_info.phone}</td>`;
   str += `</tr>`;
   str += `<tr>`;
-  str += `  <td><img style="width: 180px; padding-top: 5px;" src="../../../assets/full-logo.png" alt="Hoist Finance"/></td>`;
+  str += `  <td colspan="2"><img style="width: 180px; padding-top: 5px;" src="../../../assets/full-logo.png" alt="Hoist Finance"/></td>`;
   str += `</tr>`;
   str += `<tr style="font-size: 12px">`;
   str += `  <td colspan="2"><a href="https://wwww.hoistfinance.com" style="color: #c71182;">www.hoistfinance.com</a></td>`;
