@@ -196,7 +196,7 @@ function get_template_A_info(user_info) {
   str += `  <td><img style="width: 180px; padding-top: 5px;" src="cid:${logoFileName}" alt="Hoist Finance"/></td>`;
   str += `</tr>`;
   str += `<tr style="font-size: 12px">`;
-  str += `  <td><a href="https://wwww.hoistfinance.com" style="color: #c71182;">www.hoistfinance.com</a></td>`;
+  str += `  <td colspan=2><a href="https://wwww.hoistfinance.com" style="color: #c71182;">www.hoistfinance.com</a></td>`;
   str += `</tr>`;
   str += `</table>`;
 
