@@ -173,7 +173,7 @@ function get_template_A_info(user_info) {
     str += user_info.greeting + "<br/>";
   }
 
-  str += `<table style="color:red; border: none; border-spacing: 0px;">`;
+  str += `<table style="color:#444; border: none; border-spacing: 0px;">`;
   str += `<tr>`;
   str += `  <td style="font-weight: bold">${user_info.name}</td>`;
   str += `</tr>`;
