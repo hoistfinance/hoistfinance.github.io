@@ -173,24 +173,24 @@ function get_template_A_info(user_info) {
     str += user_info.greeting + "<br/>";
   }
 
-  str += `<table>`;
+  str += `<table style="color:red; border: none; border-spacing: 0px;">`;
   str += `<tr>`;
   str += `  <td style="font-weight: bold">${user_info.name}</td>`;
   str += `</tr>`;
   str += `<tr style="font-size: 14px">`;
   str += `  <td><a style="font-weight: bold">${user_info.job}</a>`; 
   if (is_valid_data(user_info.department)) {
-    str += ` | ${user_info.greeting}` ;
+    str += ` | ${user_info.department}` ;
   }
   str += `</td>`;
   str += `</tr>`;
   str += `<tr style="font-size: 14px">`;
-  str += `  <td>Email</td>`;
+  str += `  <td style="width: 85px">Email</td>`;
   str += `  <td>: ${user_info.email}</td>`;
   str += `</tr>`;
-  str += `<tr>`;
-  str += `  <td>Phone</td>`;
-  str += `  <td>${user_info.phone}</td>`;
+  str += `<tr style="font-size: 14px">`;
+  str += `  <td style="width: 85px">Phone</td>`;
+  str += `  <td>: ${user_info.phone}</td>`;
   str += `</tr>`;
   str += `<tr>`;
   str += `  <td><img style="width: 180px;" src="cid:${logoFileName}" alt="Hoist Finance"/></td>`;
