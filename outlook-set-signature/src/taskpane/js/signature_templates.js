@@ -74,10 +74,11 @@ function get_template_C_str(user_info)
   }
 
   str += user_info.name;
-  str += '___________________________________';
   if(is_valid_data(user_info.pronoun)) {
     str += ` ${user_info.pronoun}`
   }
+
+  str += '<br>___________________________________';
 
   if(is_valid_data(user_info.job)) {
     str += `<br>${user_info.job}`
