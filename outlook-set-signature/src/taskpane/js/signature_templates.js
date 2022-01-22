@@ -74,6 +74,7 @@ function get_template_C_str(user_info)
   }
 
   str += user_info.name;
+  str += '___________________________________';
   if(is_valid_data(user_info.pronoun)) {
     str += ` ${user_info.pronoun}`
   }
@@ -83,7 +84,7 @@ function get_template_C_str(user_info)
   }
 
   if(is_valid_data(user_info.phone)) {
-    str += ` ${user_info.phone}`
+    str += `<br>${user_info.phone}`
   }
   
   return str;
