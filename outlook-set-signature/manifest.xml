@@ -5,12 +5,12 @@
   xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides" xsi:type="MailApp">
   <Id>{C341AD31-BF7A-4C1D-99F1-D2E5896BEB0A}</Id>
   <Version>1.0</Version>
-  <ProviderName>Microsoft</ProviderName>
+  <ProviderName>Hoist Finance | IT Opertaions</ProviderName>
   <DefaultLocale>en-us</DefaultLocale>
   <DisplayName DefaultValue="Email Signature"/>
-  <Description DefaultValue="Hoist Finance | Manage email signature"/>
-  <IconUrl DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/white-logo.png"/>
-  <HighResolutionIconUrl DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/white-logo.png"/>
+  <Description DefaultValue="Manage email signature"/>
+  <IconUrl DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/signature-logo.png"/>
+  <HighResolutionIconUrl DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/signature-logo.png"/>
   <SupportUrl DefaultValue="https://hoistfinance.service-now.com/sp"/>
 
   <Requirements>
@@ -116,7 +116,7 @@
       </Hosts>
       <Resources>
         <bt:Images>
-          <bt:Image id="Icon16x16" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/white-logo.png"></bt:Image>
+          <bt:Image id="Icon16x16" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/signature-logo.png"></bt:Image>
         </bt:Images>
         <bt:Urls>
           <bt:Url id="residUrl0" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/src/taskpane/html/editsignature.html"></bt:Url>
@@ -128,7 +128,7 @@
           <bt:String id="residStr0" DefaultValue="Set my signature"></bt:String>
         </bt:ShortStrings>
         <bt:LongStrings>
-          <bt:String id="residAppDesc" DefaultValue="Insert your signature with ease."></bt:String>
+          <bt:String id="residAppDesc" DefaultValue="Create and edit your email signature."></bt:String>
           <bt:String id="residTT0" DefaultValue="Opens a pane displaying all available properties."></bt:String>
         </bt:LongStrings>
       </Resources>
