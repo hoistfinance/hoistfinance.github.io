@@ -120,14 +120,15 @@ label{
 }
 
 #message {
-  position: relative;
-  left: 17px;
-  color: white;
-  font-weight: bold;
-  width: 210px;
-  background-color: green;
-  padding: 10px;
+  color: black;
   display: none;
+  padding: 5px;
+  width: 250px;
+  background-color: rgb(20, 220, 153);
+  opacity: 0.8;
+  font-size: 13px;
+  border-radius: 2px;
+  margin-bottom: 15px;
 }
 
 #hard_reset_button{
