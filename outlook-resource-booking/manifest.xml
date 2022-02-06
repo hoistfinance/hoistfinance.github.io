@@ -41,7 +41,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/src/html/powerapp.html"/>
+        <SourceLocation DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/src/taskpane/html/powerapp.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -105,8 +105,8 @@
         <bt:Image id="icon80" DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/assets/icon80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="functionFile" DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/src/html/function.html"/>
-        <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/src/html/powerapp.html"/>
+        <bt:Url id="functionFile" DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/src/runtime/html/function.html"/>
+        <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/src/taskpane/html/powerapp.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="groupLabel" DefaultValue="My Add-in Group"/>
