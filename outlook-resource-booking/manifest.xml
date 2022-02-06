@@ -17,8 +17,8 @@
   <ProviderName>nckr</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
-  <DisplayName DefaultValue="nckr.OutlookCanvas" />
-  <Description DefaultValue="nckr.OutlookCanvas"/>
+  <DisplayName DefaultValue="Resource Booking" />
+  <Description DefaultValue="Books desks, car parking spaces and other resources at the office"/>
   <IconUrl DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/assets/icon64.png"/>
 
   <SupportUrl DefaultValue="https://www.hoistfinance.com" />
