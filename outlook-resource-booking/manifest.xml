@@ -14,20 +14,19 @@
 
   <!--Version. Updates from the store only get triggered if there is a version change. -->
   <Version>1.0.0.0</Version>
-  <ProviderName>nckr</ProviderName>
+  <ProviderName>Hoist Finance - IT Opertaions</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
-  <DisplayName DefaultValue="Resource Booking" />
-  <Description DefaultValue="Books desks, car parking spaces and other resources at the office"/>
+  <DisplayName DefaultValue="Workspace" />
+  <Description DefaultValue="Book desks, car parking spaces and other resources at the office"/>
   <IconUrl DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/assets/icon64.png"/>
 
   <SupportUrl DefaultValue="https://www.hoistfinance.com" />
   <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
+  <!--
   <AppDomains>
     <AppDomain>AppDomain1</AppDomain>
-    <AppDomain>AppDomain2</AppDomain>
-    <AppDomain>AppDomain3</AppDomain>
   </AppDomains>
+  -->
   <!--End Basic Settings. -->
   
   <Hosts>
