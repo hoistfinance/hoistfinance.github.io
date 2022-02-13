@@ -112,6 +112,18 @@
             </ExtensionPoint>
 
           </DesktopFormFactor>
+
+          <MobileFormFactor>
+            <FunctionFile resid="runtimeJs" />
+            <ExtensionPoint xsi:type="MobileMessageReadCommandSurface">
+              <LaunchEvents>
+                <LaunchEvent Type="OnNewMessageCompose" FunctionName="checkSignature" />
+                <LaunchEvent Type="OnNewAppointmentOrganizer" FunctionName="checkSignature" />
+              </LaunchEvents>        
+              <SourceLocation resid="Autorun" />
+            </ExtensionPoint>
+          </MobileFormFactor>
+  </Host>
         </Host>
       </Hosts>
       <Resources>
