@@ -9,8 +9,8 @@
   <DefaultLocale>en-us</DefaultLocale>
   <DisplayName DefaultValue="Email Signature"/>
   <Description DefaultValue="Manage email signature"/>
-  <IconUrl DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/signature-logo.png"/>
-  <HighResolutionIconUrl DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/signature-logo.png"/>
+  <IconUrl DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-36.png"/>
+  <HighResolutionIconUrl DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-36.png"/>
   <SupportUrl DefaultValue="https://hoistfinance.service-now.com/sp"/>
 
   <Requirements>
@@ -128,7 +128,7 @@
       </Hosts>
       <Resources>
         <bt:Images>
-          <bt:Image id="Icon16x16" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/signature-logo.png"></bt:Image>
+          <bt:Image id="Icon16x16" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-16.png"></bt:Image>
         </bt:Images>
         <bt:Urls>
           <bt:Url id="residUrl0" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/src/taskpane/html/editsignature.html"></bt:Url>
