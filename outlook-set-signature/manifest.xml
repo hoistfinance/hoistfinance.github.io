@@ -68,8 +68,9 @@
                     </Supertip>
                     <Icon>
                       <bt:Image size="16" resid="Icon16x16" />
-                      <bt:Image size="32" resid="Icon16x16" />
-                      <bt:Image size="80" resid="Icon16x16" />
+                      <bt:Image size="32" resid="Icon32x32" />
+                      <bt:Image size="64" resid="Icon64x64" />
+                      <bt:Image size="80" resid="Icon80x80" />
                     </Icon>
                     <Action xsi:type="ShowTaskpane">
                       <SourceLocation resid="residUrl0"/>
@@ -91,8 +92,9 @@
                     </Supertip>
                     <Icon>
                       <bt:Image size="16" resid="Icon16x16" />
-                      <bt:Image size="32" resid="Icon16x16" />
-                      <bt:Image size="80" resid="Icon16x16" />
+                      <bt:Image size="32" resid="Icon32x32" />
+                      <bt:Image size="64" resid="Icon64x64" />
+                      <bt:Image size="80" resid="Icon80x80" />
                     </Icon>
                     <Action xsi:type="ShowTaskpane">
                       <SourceLocation resid="residUrl0"/>
@@ -128,6 +130,13 @@
       <Resources>
         <bt:Images>
           <bt:Image id="Icon16x16" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-16.png"></bt:Image>
+          <bt:Image id="Icon20x20" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-20.png"></bt:Image>
+          <bt:Image id="Icon24x24" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-24.png"></bt:Image>
+          <bt:Image id="Icon32x32" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-32.png"></bt:Image>
+          <bt:Image id="Icon40x40" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-40.png"></bt:Image>
+          <bt:Image id="Icon48x48" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-48.png"></bt:Image>
+          <bt:Image id="Icon64x64" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-64.png"></bt:Image>
+          <bt:Image id="Icon80x80" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-80.png"></bt:Image>
         </bt:Images>
         <bt:Urls>
           <bt:Url id="residUrl0" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/src/taskpane/html/editsignature.html"></bt:Url>
