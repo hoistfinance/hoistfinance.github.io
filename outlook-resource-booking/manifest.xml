@@ -18,25 +18,25 @@
 
   <Description DefaultValue="Book desks, car parking spaces and other resources at the office"/>
 
-  <IconUrl DefaultValue="./assets/icon-64.png"/>
+  <IconUrl DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/assets/icon-64.png"/>
 
-  <HighResolutionIconUrl DefaultValue="./assets/icon-80.png"/>
+  <HighResolutionIconUrl DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/assets/icon-80.png"/>
 
   <SupportUrl DefaultValue="https://hoistfinance.service-now.com/sp"/>
 
   <AppDomains>
     <AppDomain>powerapps.com</AppDomain>
   </AppDomains>
-  
-  <Hosts>
-    <Host Name="Mailbox" />
-  </Hosts>
 
   <Requirements>
     <Sets>
       <Set Name="Mailbox" MinVersion="1.1" />
     </Sets>
   </Requirements>
+
+  <Hosts>
+    <Host Name="Mailbox" />
+  </Hosts>
 
   <FormSettings>
     <Form xsi:type="ItemRead">
@@ -67,43 +67,50 @@
         <DesktopFormFactor>
           <FunctionFile resid="functionFile" />
 
-          <!-- Message Read -->
           <ExtensionPoint xsi:type="MessageReadCommandSurface">
-            <!-- Use the default tab of the ExtensionPoint or create your own with <CustomTab id="myTab"> -->
+          
             <OfficeTab id="TabDefault">
-              <!-- Up to 6 Groups added per Tab -->
+            
               <Group id="msgReadGroup">
+
                 <Label resid="groupLabel" />
-                <!-- Launch the add-in : task pane button -->
+                
                 <Control xsi:type="Button" id="msgReadOpenPaneButton">
                   <Label resid="paneReadButtonLabel" />
                   <Supertip>
                     <Title resid="paneReadSuperTipTitle" />
                     <Description resid="paneReadSuperTipDescription" />
                   </Supertip>
-                  <Icon>
-                    <bt:Image size="16" resid="icon16" />
-                    <bt:Image size="32" resid="icon32" />
-                    <bt:Image size="80" resid="icon80" />
+                  <Icon>                      
+                      <bt:Image size="16" resid="Icon16x16" />
+                      <bt:Image size="32" resid="Icon32x32" />
+                      <bt:Image size="64" resid="Icon64x64" />
+                      <bt:Image size="80" resid="Icon80x80" />
                   </Icon>
                   <Action xsi:type="ShowTaskpane">
                     <SourceLocation resid="messageReadTaskPaneUrl" />
                   </Action>
                 </Control>
-                <!-- Go to http://aka.ms/ButtonCommands to learn how to add more Controls: ExecuteFunction and Menu -->
+                
               </Group>
+
             </OfficeTab>
           </ExtensionPoint>
-          <!-- Go to http://aka.ms/ExtensionPointsCommands to learn how to add more Extension Points: MessageRead, AppointmentOrganizer, AppointmentAttendee -->
-        </DesktopFormFactor>
+
+         </DesktopFormFactor>
       </Host>
     </Hosts>
 
     <Resources>
       <bt:Images>
-        <bt:Image id="icon16" DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/assets/icon16.png"/>
-        <bt:Image id="icon32" DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/assets/icon32.png"/>
-        <bt:Image id="icon80" DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/assets/icon80.png"/>
+        <bt:Image id="Icon16x16" DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/assets/icon-16.png"></bt:Image>
+        <bt:Image id="Icon20x20" DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/assets/icon-20.png"></bt:Image>
+        <bt:Image id="Icon24x24" DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/assets/icon-24.png"></bt:Image>
+        <bt:Image id="Icon32x32" DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/assets/icon-32.png"></bt:Image>
+        <bt:Image id="Icon40x40" DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/assets/icon-40.png"></bt:Image>
+        <bt:Image id="Icon48x48" DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/assets/icon-48.png"></bt:Image>
+        <bt:Image id="Icon64x64" DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/assets/icon-64.png"></bt:Image>
+        <bt:Image id="Icon80x80" DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/assets/icon-80.png"></bt:Image>  
       </bt:Images>
       <bt:Urls>
         <bt:Url id="functionFile" DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/src/runtime/html/function.html"/>
@@ -120,4 +127,5 @@
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
+
 </OfficeApp>

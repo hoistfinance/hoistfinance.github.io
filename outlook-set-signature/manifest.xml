@@ -56,9 +56,9 @@
       </Requirements>
 
       <Hosts>
+
         <Host xsi:type="MailHost">
-        <!-- Specify the runtime for event-based activation. -->
-        <!-- For more information, see https://docs.microsoft.com/office/dev/add-ins/outlook/autolaunch -->
+
           <Runtimes>
             <Runtime resid="Autorun">
               <Override type="javascript" resid="runtimeJs"/>
@@ -114,7 +114,6 @@
               </OfficeTab>
             </ExtensionPoint>
             
-            <!-- Specify function to call for new message and new appointment events -->
             <ExtensionPoint xsi:type="LaunchEvent">
               <LaunchEvents>
                 <LaunchEvent Type="OnNewMessageCompose" FunctionName="checkSignature" />
@@ -135,9 +134,13 @@
               <SourceLocation resid="Autorun" />
             </ExtensionPoint>
           </MobileFormFactor>
-  </Host>
+
+        </Host>
+
       </Hosts>
+
       <Resources>
+
         <bt:Images>
           <bt:Image id="Icon16x16" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-16.png"></bt:Image>
           <bt:Image id="Icon20x20" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-20.png"></bt:Image>
@@ -148,20 +151,27 @@
           <bt:Image id="Icon64x64" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-64.png"></bt:Image>
           <bt:Image id="Icon80x80" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-80.png"></bt:Image>
         </bt:Images>
+
         <bt:Urls>
           <bt:Url id="residUrl0" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/src/taskpane/html/editsignature.html"></bt:Url>
           <bt:Url id="Autorun" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/src/runtime/html/autorunweb.html"></bt:Url>
           <bt:Url id="runtimeJs" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/src/runtime/js/autorunshared.js"></bt:Url>
         </bt:Urls>
+
         <bt:ShortStrings>
           <bt:String id="residGL0" DefaultValue="Signature Injector"></bt:String>
           <bt:String id="residStr0" DefaultValue="Set my signature"></bt:String>
         </bt:ShortStrings>
+
         <bt:LongStrings>
           <bt:String id="residAppDesc" DefaultValue="Create and edit your email signature."></bt:String>
           <bt:String id="residTT0" DefaultValue="Opens a pane displaying all available properties."></bt:String>
         </bt:LongStrings>
+
       </Resources>
+
     </VersionOverrides>
+
   </VersionOverrides>
+
 </OfficeApp>
