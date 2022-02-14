@@ -84,7 +84,6 @@
                   <Icon>                      
                       <bt:Image size="16" resid="Icon16x16" />
                       <bt:Image size="32" resid="Icon32x32" />
-                      <bt:Image size="64" resid="Icon64x64" />
                       <bt:Image size="80" resid="Icon80x80" />
                   </Icon>
                   <Action xsi:type="ShowTaskpane">
