@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Created:ce44715c-8c4e-446b-879c-ea9ebe0f09c8-->
 <OfficeApp 
           xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" 
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -7,36 +6,38 @@
           xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" 
           xsi:type="MailApp">
 
-  <!-- Begin Basic Settings: Add-in metadata, used for all versions of Office unless override provided. -->
-
-  <!-- IMPORTANT! Id must be unique for your add-in, if you reuse this manifest ensure that you change this id to a new GUID. -->
   <Id>0881295f-5538-4023-a1b5-95761d6cdd8c</Id>
 
-  <!--Version. Updates from the store only get triggered if there is a version change. -->
-  <Version>1.0.0.0</Version>
-  <ProviderName>Hoist Finance - IT Operations</ProviderName>
-  <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Workspace" />
-  <Description DefaultValue="Book desks, car parking spaces and other resources at the office"/>
-  <IconUrl DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/assets/icon-64.png"/>
+  <Version>1.0</Version>
 
-  <SupportUrl DefaultValue="https://www.hoistfinance.com" />
-  <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
-  
+  <ProviderName>Hoist Finance - IT Operations</ProviderName>
+
+  <DefaultLocale>en-us</DefaultLocale>
+
+  <DisplayName DefaultValue="Workspace" />
+
+  <Description DefaultValue="Book desks, car parking spaces and other resources at the office"/>
+
+  <IconUrl DefaultValue="./assets/icon-64.png"/>
+
+  <HighResolutionIconUrl DefaultValue="./assets/icon-80.png"/>
+
+  <SupportUrl DefaultValue="https://hoistfinance.service-now.com/sp"/>
+
   <AppDomains>
     <AppDomain>powerapps.com</AppDomain>
   </AppDomains>
   
-  <!--End Basic Settings. -->
-  
   <Hosts>
     <Host Name="Mailbox" />
   </Hosts>
+
   <Requirements>
     <Sets>
       <Set Name="Mailbox" MinVersion="1.1" />
     </Sets>
   </Requirements>
+
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
@@ -47,9 +48,11 @@
   </FormSettings>
 
   <Permissions>ReadWriteItem</Permissions>
+
   <Rule xsi:type="RuleCollection" Mode="Or">
     <Rule xsi:type="ItemIs" ItemType="Message" FormType="Read" />
   </Rule>
+
   <DisableEntityHighlighting>false</DisableEntityHighlighting>
 
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/mailappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -58,11 +61,10 @@
         <bt:Set Name="Mailbox" />
       </bt:Sets>
     </Requirements>
+
     <Hosts>
       <Host xsi:type="MailHost">
-
         <DesktopFormFactor>
-          <!-- Location of the Functions that UI-less buttons can trigger (ExecuteFunction Actions). -->
           <FunctionFile resid="functionFile" />
 
           <!-- Message Read -->

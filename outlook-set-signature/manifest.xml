@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
-  xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides" xsi:type="MailApp">
+<OfficeApp 
+          xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+          xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides" 
+          xsi:type="MailApp">
+  
   <Id>{C341AD31-BF7A-4C1D-99F1-D2E5896BEB0A}</Id>
+
   <Version>1.0</Version>
+
   <ProviderName>Hoist Finance - IT Operations</ProviderName>
+
   <DefaultLocale>en-us</DefaultLocale>
+
   <DisplayName DefaultValue="Email Signature"/>
+
   <Description DefaultValue="Manage email signature"/>
-  <IconUrl DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-64.png"/>
-  <HighResolutionIconUrl DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-80.png"/>
+
+  <IconUrl DefaultValue="./assets/icon-64.png"/>
+
+  <HighResolutionIconUrl DefaultValue="./assets/icon-80.png"/>
+
   <SupportUrl DefaultValue="https://hoistfinance.service-now.com/sp"/>
 
   <Requirements>
@@ -19,7 +30,6 @@
     </Sets>
   </Requirements>
 
-  <!-- Old schema. This will be overridden by the VersionOverrides below. -->
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
