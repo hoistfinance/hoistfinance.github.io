@@ -9,8 +9,8 @@
   <DefaultLocale>en-us</DefaultLocale>
   <DisplayName DefaultValue="Email Signature"/>
   <Description DefaultValue="Manage email signature"/>
-  <IconUrl DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-36.png"/>
-  <HighResolutionIconUrl DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-36.png"/>
+  <IconUrl DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-64.png"/>
+  <HighResolutionIconUrl DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-80.png"/>
   <SupportUrl DefaultValue="https://hoistfinance.service-now.com/sp"/>
 
   <Requirements>

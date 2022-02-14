@@ -18,7 +18,7 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Workspace" />
   <Description DefaultValue="Book desks, car parking spaces and other resources at the office"/>
-  <IconUrl DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/assets/icon64.png"/>
+  <IconUrl DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/assets/icon-64.png"/>
 
   <SupportUrl DefaultValue="https://www.hoistfinance.com" />
   <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
