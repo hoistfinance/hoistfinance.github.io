@@ -14,7 +14,7 @@
 
   <!--Version. Updates from the store only get triggered if there is a version change. -->
   <Version>1.0.0.0</Version>
-  <ProviderName>Hoist Finance - IT Opertaions</ProviderName>
+  <ProviderName>Hoist Finance - IT Operations</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Workspace" />
   <Description DefaultValue="Book desks, car parking spaces and other resources at the office"/>
