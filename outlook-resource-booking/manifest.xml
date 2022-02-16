@@ -118,13 +118,13 @@
         <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://hoistfinance.github.io/outlook-resource-booking/src/taskpane/html/powerapp.html"/>
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="groupLabel" DefaultValue="My Add-in Group"/>
-        <bt:String id="customTabLabel"  DefaultValue="My Add-in Tab"/>
-        <bt:String id="paneReadButtonLabel" DefaultValue="Display all properties"/>
-        <bt:String id="paneReadSuperTipTitle" DefaultValue="Get all properties"/>
+        <bt:String id="groupLabel" DefaultValue="Hoist Finance"/>
+        <bt:String id="customTabLabel"  DefaultValue="Hoist Finance"/>
+        <bt:String id="paneReadButtonLabel" DefaultValue="Workspace"/>
+        <bt:String id="paneReadSuperTipTitle" DefaultValue="Workspace"/>
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="paneReadSuperTipDescription" DefaultValue="Opens a pane displaying all available properties. This is an example of a button that opens a task pane."/>
+        <bt:String id="paneReadSuperTipDescription" DefaultValue="Book company resources such as desks or parking spaces"/>
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
