@@ -1,2 +1,0 @@
-# outlook-set-signature
- 

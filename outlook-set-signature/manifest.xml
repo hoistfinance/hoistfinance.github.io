@@ -18,9 +18,9 @@
 
   <Description DefaultValue="Manage email signature"/>
 
-  <IconUrl DefaultValue="./assets/icon-64.png"/>
+  <IconUrl DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-64.png"/>
 
-  <HighResolutionIconUrl DefaultValue="./assets/icon-80.png"/>
+  <HighResolutionIconUrl DefaultValue="https://hoistfinance.github.io/outlook-set-signature/assets/icon-80.png"/>
 
   <SupportUrl DefaultValue="https://hoistfinance.service-now.com/sp"/>
 
@@ -159,13 +159,13 @@
         </bt:Urls>
 
         <bt:ShortStrings>
-          <bt:String id="residGL0" DefaultValue="Signature Injector"></bt:String>
-          <bt:String id="residStr0" DefaultValue="Set my signature"></bt:String>
+          <bt:String id="groupLabel" DefaultValue="Hoist Finance"/>
+          <bt:String id="customTabLabel"  DefaultValue="Hoist Finance"/>
+          <bt:String id="paneReadButtonLabel" DefaultValue="My Mail Signature"/>
+          <bt:String id="paneReadSuperTipTitle" DefaultValue="My Mail Signature"/>
         </bt:ShortStrings>
-
         <bt:LongStrings>
-          <bt:String id="residAppDesc" DefaultValue="Create and edit your email signature."></bt:String>
-          <bt:String id="residTT0" DefaultValue="Opens a pane displaying all available properties."></bt:String>
+          <bt:String id="paneReadSuperTipDescription" DefaultValue="Edit and set your email signature"/>
         </bt:LongStrings>
 
       </Resources>
