@@ -124,7 +124,7 @@
         <bt:String id="paneReadSuperTipTitle" DefaultValue="Workspace"/>
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="paneReadSuperTipDescription" DefaultValue="Book company resources such as desks or parking spaces"/>
+        <bt:String id="paneReadSuperTipDescription" DefaultValue="Book company resources such as desks or parking spaces  "/>
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
