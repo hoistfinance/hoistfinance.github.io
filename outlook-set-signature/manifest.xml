@@ -69,7 +69,7 @@
             <ExtensionPoint xsi:type="MessageComposeCommandSurface">
               <OfficeTab id="TabDefault">
                 <Group id="mccsG0">
-                  <Label resid="residGL0"/>
+                  <Label resid="paneReadButtonLabel"/>
                   <Control xsi:type="Button" id="MRCS_TpBtn0">
                     <Label resid="residStr0"/>
                     <Supertip>
@@ -93,7 +93,7 @@
             <ExtensionPoint xsi:type="AppointmentOrganizerCommandSurface">
               <OfficeTab id="TabDefault">
                 <Group id="aocsG0">
-                  <Label resid="residGL0"/>
+                  <Label resid="paneReadButtonLabel"/>
                   <Control xsi:type="Button" id="MRCS_TpBtn1">
                     <Label resid="residStr0"/>
                     <Supertip>
