@@ -68,13 +68,13 @@
           <DesktopFormFactor>
             <ExtensionPoint xsi:type="MessageComposeCommandSurface">
               <OfficeTab id="TabDefault">
-                <Group id="mccsG0">
-                  <Label resid="paneReadButtonLabel"/>
+                <Group id="msgReadGroup">
+                  <Label resid="groupLabel"/>
                   <Control xsi:type="Button" id="MRCS_TpBtn0">
-                    <Label resid="residStr0"/>
+                    <Label resid="paneReadButtonLabel"/>
                     <Supertip>
-                      <Title resid="residStr0" />
-                      <Description resid="residTT0" />
+                      <Title resid="paneReadSuperTipTitle" />
+                      <Description resid="paneReadSuperTipDescription" />
                     </Supertip>
                     <Icon>
                       <bt:Image size="16" resid="Icon16x16" />
@@ -83,7 +83,7 @@
                       <bt:Image size="80" resid="Icon80x80" />
                     </Icon>
                     <Action xsi:type="ShowTaskpane">
-                      <SourceLocation resid="residUrl0"/>
+                      <SourceLocation resid="url"/>
                     </Action>
                   </Control>
                 </Group>
@@ -92,13 +92,13 @@
 
             <ExtensionPoint xsi:type="AppointmentOrganizerCommandSurface">
               <OfficeTab id="TabDefault">
-                <Group id="aocsG0">
-                  <Label resid="paneReadButtonLabel"/>
-                  <Control xsi:type="Button" id="MRCS_TpBtn1">
-                    <Label resid="residStr0"/>
+                <Group id="msgReadGroup">
+                  <Label resid="groupLabel"/>
+                  <Control xsi:type="Button" id="MRCS_TpBtn0">
+                    <Label resid="paneReadButtonLabel"/>
                     <Supertip>
-                      <Title resid="residStr0"/>
-                      <Description resid="residTT0"/>
+                      <Title resid="paneReadSuperTipTitle" />
+                      <Description resid="paneReadSuperTipDescription" />
                     </Supertip>
                     <Icon>
                       <bt:Image size="16" resid="Icon16x16" />
@@ -107,7 +107,7 @@
                       <bt:Image size="80" resid="Icon80x80" />
                     </Icon>
                     <Action xsi:type="ShowTaskpane">
-                      <SourceLocation resid="residUrl0"/>
+                      <SourceLocation resid="url"/>
                     </Action>
                   </Control>
                 </Group>
@@ -119,7 +119,7 @@
                 <LaunchEvent Type="OnNewMessageCompose" FunctionName="checkSignature" />
                 <LaunchEvent Type="OnNewAppointmentOrganizer" FunctionName="checkSignature" />
               </LaunchEvents>
-              <SourceLocation resid="Autorun" />
+              <SourceLocation resid="autorun" />
             </ExtensionPoint>
 
           </DesktopFormFactor>
@@ -131,7 +131,7 @@
                 <LaunchEvent Type="OnNewMessageCompose" FunctionName="checkSignature" />
                 <LaunchEvent Type="OnNewAppointmentOrganizer" FunctionName="checkSignature" />
               </LaunchEvents>        
-              <SourceLocation resid="Autorun" />
+              <SourceLocation resid="autorun" />
             </ExtensionPoint>
           </MobileFormFactor>
 
@@ -153,8 +153,8 @@
         </bt:Images>
 
         <bt:Urls>
-          <bt:Url id="residUrl0" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/src/taskpane/html/editsignature.html"></bt:Url>
-          <bt:Url id="Autorun" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/src/runtime/html/autorunweb.html"></bt:Url>
+          <bt:Url id="url" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/src/taskpane/html/editsignature.html"></bt:Url>
+          <bt:Url id="autorun" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/src/runtime/html/autorunweb.html"></bt:Url>
           <bt:Url id="runtimeJs" DefaultValue="https://hoistfinance.github.io/outlook-set-signature/src/runtime/js/autorunshared.js"></bt:Url>
         </bt:Urls>
 
